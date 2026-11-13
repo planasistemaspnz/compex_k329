@@ -1,0 +1,29 @@
+name: compex_k329
+description: "Camada reutilizável de impressão de etiquetas de gôndola (CPCL) via Bluetooth clássico RFCOMM para impressoras térmicas K329."
+version: 0.1.1
+
+environment:
+  sdk: ^3.12.2
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  barcode: ^2.2.9
+  intl: ^0.20.3
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.gondolaprinter.gondola_label_printer
+        pluginClass: GondolaLabelPrinterPlugin
+      ios:
+        pluginClass: GondolaLabelPrinterPlugin
