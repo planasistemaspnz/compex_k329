@@ -1,3 +1,8 @@
+## 0.1.2
+
+- Adicionado o campo `repository` no pubspec.yaml, apontando para
+  https://github.com/planasistemaspnz/compex_k329.
+
 ## 0.1.1
 
 - Adicionado app de exemplo completo em `example/` demonstrando o uso de todos os widgets e

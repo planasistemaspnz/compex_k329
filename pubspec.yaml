@@ -1,6 +1,7 @@
 name: compex_k329
 description: "Camada reutilizável de impressão de etiquetas de gôndola (CPCL) via Bluetooth clássico RFCOMM para impressoras térmicas K329."
-version: 0.1.1
+version: 0.1.2
+repository: https://github.com/planasistemaspnz/compex_k329
 
 environment:
   sdk: ^3.12.2
