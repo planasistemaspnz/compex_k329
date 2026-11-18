@@ -42,7 +42,6 @@ class BluetoothPrinterService {
       Permission.bluetooth,
       Permission.bluetoothScan,
       Permission.bluetoothConnect,
-      Permission.location,
     ].request();
 
     return statuses.values.every((status) => status.isGranted);

@@ -1,3 +1,7 @@
+## 0.1.3
+
+- Removida a exigência das permissões de localização (`ACCESS_FINE_LOCATION` e `ACCESS_COARSE_LOCATION`) no AndroidManifest e no runtime Dart, mantendo apenas permissões estritas de Bluetooth (`neverForLocation`).
+
 ## 0.1.2
 
 - Adicionado o campo `repository` no pubspec.yaml, apontando para
